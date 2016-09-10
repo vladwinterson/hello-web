@@ -6,6 +6,10 @@
 body {
 	background-image: url(../img/bodybg.gif);
 }
+p {
+	clear: right;
+	padding: 15px 5px 0px 0px;
+}
 
 #heading {
 	font-size: 36px;
