@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+body {
+	background-image: url(../img/bodybg.gif);
+}
+
+#heading {
+	font-size: 36px;
+	text-align: center;
+	text-decoration: overline underline;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+}
+
+.inner-heading {
+	font-size: 20px;
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	right: 0px;
+	top: 0px;
+	border: solid;
+	text-align: right;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+#id-html {background-color: #295029;}
+
+#id-css  {background-color: #A050A0;}
+
+#id-js   {background-color: #9A5049;}
+
+.col-md-4, .col-xs-6, .col-xs-12 {
+	float: left;
+	position: relative;
+	color: white;
+	margin-top: 25px;
+	background-color: #606060;
+	margin: 0 1% 1% 0;
+	padding: 12px 12px 12px 12px;
+	border: solid;
+	border-width: 2px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-xs-6 {
+	width: 49%;
+	}
+
+	.col-xs-12 {
+	width: 99%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-4 {
+	width: 32%;
+	}
+}
